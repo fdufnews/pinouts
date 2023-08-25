@@ -8,12 +8,17 @@ I like the idea of having access to the pinout of the boards I am working on at 
 
 I kept the same look and feel as the one in the file I started from
 
-I currently have the following boards:
+I currently have made pinouts for the following boards:  
 - Raspberry Pi Pico (the one I started from)
 ![picopins](doc/picopins.jpg)
 - Seeed Studio Xiao RP2040
-![picopins](doc/xiaopins.jpg)
-![picopins](doc/xiaopins_LED.jpg)
+![xiaopins](doc/xiaopins.jpg)
+- Arduino UNO
+![unopins](doc/unopins.jpg)
+- Arduino Nano
+![nanopins](doc/nanopins.jpg)
+- Arduino Pro Mini
+![prominipins](doc/prominipins.jpg)
 
 ## Usage
 ```
