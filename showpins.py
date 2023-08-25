@@ -232,4 +232,7 @@ class Options():
             showpins.usage(None, self.appname, f"Invalid interface \"{label}\".")
         return label
 
-
+if __name__ == "__main__":
+    print("""\n\nThis code is not supposed to be executed alone.
+It is part of files displaying development boards pinout.
+The program you should execute are picopins.py, xiaopins.py and so on.\n""")
