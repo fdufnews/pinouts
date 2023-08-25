@@ -50,7 +50,7 @@ class prominipins(showpins):
     GROUND = (4, 25, 31, 32)
     POWER = (23, 26, 33)
     ADC = (17, 18, 19, 20, 21, 22)
-    RUN = (3, 36)
+    RUN = (3, 24, 36)
     BOARD = 'Arduino Pro Mini ' + __version__
 
     LED = ((2, 3, "D13","highlight_r"),)

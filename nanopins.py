@@ -53,7 +53,7 @@ class nanopins(showpins):
     POWER = (17, 27, 30, 31)
     ADC = (19, 20, 21, 22, 23, 24, 25, 26)
     RUN = (3, 28)
-    BOARD = 'Arduino Nano' + __version__
+    BOARD = 'Arduino Nano ' + __version__
 
     LED = ((11, 12, "D13","highlight_r"),)
             
