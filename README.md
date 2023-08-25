@@ -12,16 +12,24 @@ I kept the same look and feel as the one in the file I started from
 Starting from @gadgetoid work I spliced the code in 2 parts extracting the common code that displays the pinouts from the one that decribes the boards. It makes it a little easier to create new boards as all the specific parts are in one place and there is no code to change when adding a new board only some data.
 
 I currently have made pinouts for the following boards:  
+
 - Raspberry Pi Pico (the one I started from)
 ![picopins](doc/picopins.jpg)
+
 - Seeed Studio Xiao RP2040
 ![xiaopins](doc/xiaopins.jpg)
+
 - Arduino UNO
 ![unopins](doc/unopins.jpg)
+
 - Arduino Nano
 ![nanopins](doc/nanopins.jpg)
+
 - Arduino Pro Mini
 ![prominipins](doc/prominipins.jpg)
+
+- Teensy LC
+![prominipins](doc/teensylcpins.jpg)
 
 ## Usage
 ```
