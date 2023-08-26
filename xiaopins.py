@@ -45,7 +45,7 @@ class xiaopins(showpins):
     RUN = ()
     BOARD = 'XIAO RP2040 ' + __version__
 
-    LED = ((3, 3, "GP16","highlight_v"),
+    LED = ((3, 3, "GP16","highlight_g"),
             (3, 4, "GP17","highlight_r"),
             (3, 4, "GP25","highlight_b"),
             (8, 9, "GP11","highlight_r"),

@@ -46,7 +46,7 @@ class showpins(object):
         "run": "#df8f8e",
         "highlight": "bold #dc322f on white",
         "highlight_r": "bold #dc322f on white",
-        "highlight_v": "bold #20c020 on white",
+        "highlight_g": "bold #20c020 on white",
         "highlight_b": "bold #3030dc on white",
         "highlight_row": "bold {fg} on #444444"
     }
