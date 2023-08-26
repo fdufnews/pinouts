@@ -187,7 +187,7 @@ class showpins(object):
 
         layout = Table.grid(expand=True)
         layout.add_row(grid)
-        layout.add_row("fdufnews based on @gadgetoid work\nhttps://pico.pinout.xyz")
+        layout.add_row("\nfdufnews based on @gadgetoid work\nhttps://pico.pinout.xyz")
 
         return Panel(
             layout,
@@ -198,7 +198,8 @@ class showpins(object):
 
 class Options():
     def __init__(self, argv):
-        self.appname = argv[0]
+        name = argv[0].split('/')
+        self.appname = name[-1]
         argv.pop(0)
         if "--help" in argv:
             showpins.usage(None, self.appname )
