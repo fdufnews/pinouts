@@ -13,23 +13,16 @@ Starting from @gadgetoid work I spliced the code in 2 parts extracting the commo
 
 I currently have made pinouts for the following boards:  
 
-- Raspberry Pi Pico (the one I started from)
-![picopins](doc/picopins.jpg)
-
-- Seeed Studio Xiao RP2040
-![xiaopins](doc/xiaopins.jpg)
-
-- Arduino UNO
-![unopins](doc/unopins.jpg)
-
-- Arduino Nano
-![nanopins](doc/nanopins.jpg)
-
-- Arduino Pro Mini
-![prominipins](doc/prominipins.jpg)
-
-- Teensy LC
-![prominipins](doc/teensylcpins.jpg)
+|   |   |
+|:---:|:---:| 
+|[![Raspberry Pi Pico](doc/small/picopins.jpg)](doc/picopins.jpg)|[![xiao RP2040](doc/small/xiaopins.jpg)](doc/xiaopins.jpg)|
+|[Raspberry Pi Pico](doc/picopins.jpg)|[xiao RP2040](doc/xiaopins.jpg)|
+|[![Arduino Uno](doc/small/unopins.jpg)](doc/unopins.jpg)| [![Arduino Nano](doc/small/nanopins.jpg)](doc/nanopins.jpg)|
+|[Arduino Uno](doc/unopins.jpg)| [Arduino Nano](doc/nanopins.jpg)
+|[![Arduino Pro Mini](doc/small/prominipins.jpg)](doc/prominipins.jpg)|[![Teensy LC](doc/small/teensylcpins.jpg)](doc/teensylcpins.jpg)|
+|[Arduino Pro Mini](doc/prominipins.jpg)|[Teensy LC](doc/teensylcpins.jpg)|
+|[![Raspberry Pi](doc/small/raspipins.jpg)](doc/raspipins.jpg) |  |
+|[Raspberry Pi](doc/raspipins.jpg) |  |
 
 ## Usage
 ```
@@ -39,7 +32,7 @@ usage: appName [--pins] [--all] or {spi,i2c,uart,pwm}
        --hide-gpio - hide GPIO pins
        --find "<text>" - highlight pins matching <text>
 
-appName can be one off picopins, xiaopins, ....
+appName can be one of picopins, xiaopins, ....
 text can be spi, pwm, gpio, i2c, led
 
 eg:    appName i2c  - show GPIO and I2C labels
