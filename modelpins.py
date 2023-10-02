@@ -19,9 +19,14 @@ Shout-out to Raspberry Pi Spy for having almost this exact idea first:
 https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-line/
 """
 
-__version__ = '0.0.0'
+__version__ = '0.2'
 
 # Name of the class can be changed in that case the name in the instance in line 74 must be changed too
+# suggested graphic symbols that can be used
+# ┏ ┓ ┗ ┛ ▂ ▁ ┃ ╹ ╻ ◎ ▣ ▩ ▒ ▓ └ ┘ ┌ ┐ ┬ ┴ ┼ ├ ┤ ─ │ ✅ ⛔
+# ┏━━━━━┓ 
+# ┫ USB ┣
+# ┗━━━━━┛
 class picopins(showpins):
 #   PWM   | UART    |   I2C  |  SPI   | GPIO |pin#|   DIAGRAM   |pin#| GPIO     |  SPI   |   I2C  | UART    | PWM
     PINOUT = [line.split("|") for line in """

@@ -19,7 +19,7 @@ Shout-out to Raspberry Pi Spy for having almost this exact idea first:
 https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-line/
 """
 
-__version__ = '0.0.1'
+__version__ = '1.0'
 
 # Name of the class can be changed in that case the name in the instance in line 74 must be changed too
 class picopins(showpins):

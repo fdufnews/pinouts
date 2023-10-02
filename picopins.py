@@ -19,7 +19,7 @@ Shout-out to Raspberry Pi Spy for having almost this exact idea first:
 https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-line/
 """
 
-__version__ = '2.0.0'
+__version__ = '2.0'
 
 class picopins(showpins):
 
