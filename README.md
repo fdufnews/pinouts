@@ -21,8 +21,8 @@ I currently have made pinouts for the following boards:
 |[Arduino Uno](doc/unopins.jpg)| [Arduino Nano](doc/nanopins.jpg)
 |[![Arduino Pro Mini](doc/small/prominipins.jpg)](doc/prominipins.jpg)|[![Teensy LC](doc/small/teensylcpins.jpg)](doc/teensylcpins.jpg)|
 |[Arduino Pro Mini](doc/prominipins.jpg)|[Teensy LC](doc/teensylcpins.jpg)|
-|[![Raspberry Pi](doc/small/raspipins.jpg)](doc/raspipins.jpg) |  |
-|[Raspberry Pi](doc/raspipins.jpg) |  |
+|[![Raspberry Pi](doc/small/raspipins.jpg)](doc/raspipins.jpg) | [![Heltec WiFi Kit 32](doc/small/wifikit32pins.jpg)](doc/wifikit32pins.jpg) |
+|[Raspberry Pi](doc/raspipins.jpg) | [Heltec WiFi Kit 32](doc/wifikit32pins.jpg) |
 
 ## Usage
 ```

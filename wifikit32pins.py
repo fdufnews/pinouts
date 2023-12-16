@@ -53,6 +53,7 @@ class picopins(showpins):
           |         |        |        |                 |  |┗━━━┓▂▂▂▂▂▂▂▂▂┏━━━┛|  |           |           |        |           |
           |         |        |        |                 |  |   *input only     |  |           |           |        |           |
           |         |        |        |                 |  |   UART0 ==> USB   |  |           |           |        |           |
+          |         |        |        |                 |  |✅ ==> can be any pin|  |           |           |        |           |
 """.splitlines()[1:]]
 
 # This list contains the ground pins
