@@ -11,7 +11,7 @@ I kept the same look and feel as the one in the file I started from
 ## What I have done
 Starting from @gadgetoid work I spliced the code in 2 parts extracting the common code that displays the pinouts from the one that decribes the boards. It makes it a little easier to create new boards as all the specific parts are in one place and there is no code to change when adding a new board only some data.
 
-I currently have made pinouts for the following boards:  
+Examples of some pinouts:  
 
 |   |   |
 |:---:|:---:| 
@@ -71,7 +71,20 @@ There is a template that can be used to create new boards.
             (8, 9, "GP12","highlight_r"))  
     1. if the name of the class has been changed, don't forget to change the name of the class line 74 where the instance is created
 
+## The pinouts.py frontend
+In order to simplify use and relieve the user of having to memorize the name of all files, there is now a frontend.
+The file is called pinouts.py
+It scans the directory for files ending in _pins.py, sorts them and displays the list. The user simply needs to enter the number in front of the file name.
+pinouts.py can be called with or without arguments. The arguments are passed to the called file. tThey are the same as those described in the [usage chapter] (./README.md#usage). If no argument is given, --all is the default.
+
 ## Required
 rich is required to display the pinouts.  
 You can install rich with
 > pip3 install rich
+
+## Update
+### 2024-06
+Added an "frontend" that displays a list of pinouts available in the directory and avoids the user having to memorize the name of the cards 
+To do so the pinout files were renamed to help sort them. They shall be named whatever name you want but shall end with _pins.py
+Some boards added
+

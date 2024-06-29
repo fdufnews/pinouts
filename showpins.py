@@ -17,7 +17,7 @@ https://www.patreon.com/gadgetoid
 Shout-out to Raspberry Pi Spy for having almost this exact idea first:
 https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-line/
 """
-__version__ = '1.0'
+__version__ = '1.1'
 
 
 COLS = ["pins", "gpio", "spi", "i2c", "uart", "pwm"]
@@ -39,10 +39,10 @@ class showpins(object):
         "pwm": "#666666",
         "panel": "#ffffff on #000000",
         "panel_light": "#000000 on #fdf6e3",
-        "diagram": "#555555",
+        "diagram": "#9a9996",
         "adc": "#2aa198",
         "power": "#dc322f",
-        "ground": "#005b66",
+        "ground": "#cdab8f",
         "run": "#df8f8e",
         "highlight": "bold #dc322f on white",
         "highlight_r": "bold #dc322f on white",
@@ -70,9 +70,10 @@ class showpins(object):
            {appname}                        - basic GPIO pinout
            {appname} --all --find "PWM3 A"  - highlight any "PWM3 A" labels
            {appname} --all --find "PWM.* A" - highlight any PWM A channels
+           {appname} --all --find "led"     - highlight all LEDs on the board
 
-    web:   https://pico.pinout.xyz
-    bugs:  https://github.com/pinout-xyz/picopins
+    web:   https://github.com/fdufnews/pinouts
+    bugs:  https://github.com/fdufnews/pinouts/issues
     """)
         sys.exit(1 if error else 0)
 
@@ -236,4 +237,4 @@ class Options():
 if __name__ == "__main__":
     print("""\n\nThis code is not supposed to be executed alone.
 It is part of files displaying development boards pinout.
-The program you should execute are picopins.py, xiaopins.py and so on.\n""")
+The program you should execute are pico_pins.py, xiao_pins.py and so on.\n""")
