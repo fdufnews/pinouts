@@ -25,13 +25,14 @@ def main():
         count += 1
         if (count - 1) % 3 == 0:
             print('\n\r')
+    print('\n\r')
     if len(sys.argv) < 2:
         print('\n\rNo given arguments. Default arguments will be used ')
         args = defaultargs
     else:
         print('Given arguments will be used ')
         args = sys.argv
-    print(args)
+    print('{}\n\r'.format(args))
     entry = None
     while entry not in range(0, len(filelist)+1):
         prompt = 'Enter a number between 1 and {} or 0 to exit:'.format(len(filelist))
@@ -42,7 +43,7 @@ def main():
     if entry > 0:
         entry -= 1
         args[0] = filelist[entry]
-        print('Will execute: {} {}'.format(filelist[entry], args))
+        print('Will execute: {} {}\n\r'.format(filelist[entry], args))
         os.execv(filelist[entry], args)
     
 if __name__ == "__main__":
