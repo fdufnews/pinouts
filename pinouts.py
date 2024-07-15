@@ -4,7 +4,7 @@ import sys
 
 def main():
     filemask = '_pins.py'
-    defaultargs = ['', '--all']
+    defaultargs = ['', '--all','--pins','--find','LED']
     filelist =[]
     with os.scandir() as it:
         for entry in it:

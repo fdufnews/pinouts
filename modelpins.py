@@ -24,6 +24,7 @@ __version__ = '0.2'
 # Name of the class can be changed in that case the name in the instance in line 74 must be changed too
 # suggested graphic symbols that can be used
 # ┏ ┓ ┗ ┛ ▂ ▁ ┃ ╹ ╻ ◎ ▣ ▩ ▒ ▓ └ ┘ ┌ ┐ ┬ ┴ ┼ ├ ┤ ─ │ ✅ ⛔
+# ➜ ▸ ▴ ▾ ◂ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ← ↑ → ↓ ↰ ↱ ↲ ↳ ↴ ↵ ↩ ↪ 
 # ┏━━━━━┓ 
 # ┫ USB ┣
 # ┗━━━━━┛
