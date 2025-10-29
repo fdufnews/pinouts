@@ -75,7 +75,7 @@ There is a template that can be used to create new boards.
 In order to simplify use and relieve the user of having to memorize the name of all files, there is now a frontend.
 The file is called pinouts.py
 It scans the directory for files ending in _pins.py, sorts them and displays the list. The user simply needs to enter the number in front of the file name.
-pinouts.py can be called with or without arguments. The arguments are passed to the called file. tThey are the same as those described in the [usage chapter] (./README.md#usage). If no argument is given, --all is the default.
+pinouts.py can be called with or without arguments. The arguments are passed to the called file. They are the same as those described in the [usage chapter] (./README.md#usage). If no argument is given, --all is the default.
 
 ## Required
 rich is required to display the pinouts.  

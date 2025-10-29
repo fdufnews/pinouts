@@ -21,7 +21,7 @@ https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-
 
 __version__ = '2.0'
 
-class picopins(showpins):
+class pico2040pins(showpins):
 
     PINOUT = [line.split("|") for line in """
           |         |        |        |      |  |     ┏━━━━━┓     |  |          |        |        |         |
@@ -62,7 +62,7 @@ class picopins(showpins):
         showpins.__init__(self, self.BOARD, self.PINOUT, self.GROUND, self.POWER, self.ADC, self.RUN, self.LED)
 
 
-board = picopins()
+board = pico2040pins()
 
 def main():
     rich.print(board.display(Options(sys.argv)))

@@ -22,7 +22,7 @@ https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-
 __version__ = '1.0'
 
 # Name of the class can be changed in that case the name in the instance in line 74 must be changed too
-class picopins(showpins):
+class raspipins(showpins):
 #   PWM   | UART    |   I2C |  SPI    | GPIO |pin#|  DIAGRAM  |pin#| GPIO   |  SPI    |   I2C  | UART   | PWM
     PINOUT = [line.split("|") for line in """
           |        |        |         |        |  |━━━━━━━━━━━━━━━┓|  |          |         |        |        |
@@ -72,7 +72,7 @@ PWM1      |        |        |SPI1 MISO|GP19    |35|  ┃◎       ◎┃  ┃|36
         showpins.__init__(self, self.BOARD, self.PINOUT, self.GROUND, self.POWER, self.ADC, self.RUN, self.LED)
 
 # instance of the class
-board = picopins()
+board = raspipins()
 
 def main():
     rich.print(board.display(Options(sys.argv)))

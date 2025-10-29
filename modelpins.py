@@ -19,11 +19,11 @@ Shout-out to Raspberry Pi Spy for having almost this exact idea first:
 https://www.raspberrypi-spy.co.uk/2022/12/pi-pico-pinout-display-on-the-command-line/
 """
 
-__version__ = '0.2'
+__version__ = '1.0'
 
 # Name of the class can be changed in that case the name in the instance in line 74 must be changed too
 # suggested graphic symbols that can be used
-# ┏ ┓ ┗ ┛ ▂ ▁ ┃ ╹ ╻ ◎ ▣ ▩ ▒ ▓ └ ┘ ┌ ┐ ┬ ┴ ┼ ├ ┤ ─ │ ✅ ⛔
+# ┏ ┓ ┗ ┛ ┻ ┳ ▂ ▁ ┃ ╹ ╻ ◎ ▣ ▩ ▒ ▓ └ ┘ ┌ ┐ ┬ ┴ ┼ ├ ┤ ─ │ ✅ ⛔ ⚠️
 # ➜ ▸ ▴ ▾ ◂ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ← ↑ → ↓ ↰ ↱ ↲ ↳ ↴ ↵ ↩ ↪ 
 # ┏━━━━━┓ 
 # ┫ USB ┣
@@ -67,10 +67,10 @@ class picopins(showpins):
 # This string contains the name of the board must end with a space
     BOARD = 'Raspberry Pi Pico ' + __version__
 # This list of list contains the LED(s)
-# 1st item row of the LED
-# 2nd item row of the GPIO that drives the LED
+# 1st item line of the LED
+# 2nd item line of the GPIO that drives the LED, one LED can be associated with multiple GPIO
 # 3rd item the name of the GPIO
-# 4th item the name of the color used to blink the LED one of (highlight_r, highlight_g, highlight_b)
+# 4th item the name of the color used to blink the GPIO name one of (highlight_r, highlight_g, highlight_b)
     LED = ((3, 4, "GP25","highlight_r"),)
             
     def __init__(self):
