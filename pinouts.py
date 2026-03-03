@@ -26,6 +26,7 @@ def main():
         if (count - 1) % 3 == 0:
             print('\n\r')
     print('\n\r')
+
     if len(sys.argv) < 2:
         print('\n\rNo given arguments. Default arguments will be used ')
         args = defaultargs

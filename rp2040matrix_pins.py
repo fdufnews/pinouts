@@ -34,7 +34,7 @@ class rp2040matrix(showpins):
           |         |        |        |         |  |      ┏━━━━━┓     |  |       |        |        |         |
           |         |        |        |         |  |┏━━━━━┫ USB ┣━━━━━┓|  |       |        |        |         |
           |         |        |        |5V       |1 |┃◎    ┗━━━━━┛   ◎ ┃ |18|GP0    |SPI0 RX |I2C0 SDA|UART0 TX|PWM0 A
-          |         |        |        |GND      |2 |┃▣ ┌─GP16       ◎ ┃ |17|GGP1   |SPI0 CSn|I2C0 SCL|UART0 RX|PWM0 B
+          |         |        |        |GND      |2 |┃▣ ┌─GP16       ◎ ┃ |17|GP1   |SPI0 CSn|I2C0 SCL|UART0 RX|PWM0 B
           |         |        |        |3V3      |3 |┃◎ │  1         ◎ ┃ |16|GP2    |SPI0 SCK|I2C1 SDA|UART0 CTS|PWM1 A
     PWM6 B|UART0 RX |I2C0 SCL|SPI1 CSn|GP29 / A3|4 |┃◎ └→▩ ▩ ▩ ▩ ▩  ◎ ┃|15|GP3    |SPI0 TX |I2C1 SCL|UART0 RTS|PWM1 B
     PWM6 A|UART0 TX |I2C0 SDA|SPI1 RX |GP28 / A2|5 |┃◎ ↪ ▩ ▩ ▩ ▩ ▩  ◎ ┃|14|GP4    |SPI0 RX |I2C0 SDA|UART1 TX |PWM2 A
