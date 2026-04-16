@@ -43,9 +43,9 @@ class picopins(showpins):
  ADC2_4|         |       |RTC |GP15  |8 |┃◎┗━━━━━━━━━━━━━┛◎┃|37|GP40      |        |        |         |
  ADC2_5|         |       |RTC |GP16  |9 |┃◎           RST ◎┃|36|GP39      |        |        |         |
  ADC2_6|         |       |RTC |GP17  |10|┃◎           \[o] ◎┃|35|GP38      |        |        |         |
- ADC2_7|         |       |RTC |GP18  |11|┃◎          BOOT ◎┃|34|GP37 ⚠️   |        |        |FSPIWP   |
- ADC1_7|         |TOUCH8 |RTC |GP8   |12|┃◎           \[o] ◎┃|33|GP36 ⚠️   |        |        |FSPIQ    |
- ADC1_2|         |TOUCH3 |RTC |GP3   |13|┃◎               ◎┃|32|GP35 ⚠️   |        |        |FSPICLK  |
+ ADC2_7|         |       |RTC |GP18  |11|┃◎          BOOT ◎┃|34|GP37 *   |        |        |FSPIWP   |
+ ADC1_7|         |TOUCH8 |RTC |GP8   |12|┃◎           \[o] ◎┃|33|GP36 *   |        |        |FSPIQ    |
+ ADC1_2|         |TOUCH3 |RTC |GP3   |13|┃◎               ◎┃|32|GP35 *   |        |        |FSPICLK  |
        |         |       |    |GP46  |14|┃◎       PWR  RX ◎┃|31|GP0       |        |        |FSPID    |
  ADC1_8|FSPIHD   |TOUCH9 |RTC |GP9   |15|┃◎ ▩       ▒ ▓ ▓ ◎┃|30|GP45      |        |        |         |
  ADC1_9|FSPICS0  |TOUCH10|RTC |GP10  |16|┃◎ └─GP48   TX   ◎┃|29|GP48      |        |        |         |
@@ -57,7 +57,7 @@ class picopins(showpins):
        |         |       |    |GND   |22|┃▣┃     ┃ ┃     ┃▣┃|23|GND       |        |        |         |
        |         |       |    |      |  |┗━┫     ┣━┫     ┣━┛|  |          |        |        |         |
        |         |       |    |      |  |  ┗━━━━━┛ ┗━━━━━┛  |  |          |        |        |         |
-No ADC2|         |       |    |      |  |⚠️  used by Octal SPIRAM  |  |          |        |        |         |
+No ADC2|         |       |    |      |  |*  used by Octal SPIRAM  |  |          |        |        |         |
 when WiFi|         |       |    |      |  |   SPI on any pin  |  |          |        |        |         |
 is active|         |       |    |      |  |   PWM on any pin  |  |          |        |        |         |
        |         |       |    |      |  |   I2C on any pin  |  |          |        |        |         |
